@@ -1,0 +1,54 @@
+{
+ "tests": [
+  {
+   "in": {
+    "full0": 10,
+    "change": 5,
+    "ret": 14,
+    "imm": 30,
+    "gen": 10,
+    "full": 7
+   },
+   "v": {
+    "cap": 87,
+    "plain": 36,
+    "effDays": 40
+   }
+  },
+  {
+   "in": {
+    "full0": 10,
+    "change": 5,
+    "ret": 14,
+    "imm": 30,
+    "gen": 10,
+    "full": 0
+   },
+   "v": {
+    "cap": 30
+   }
+  },
+  {
+   "in": {
+    "full0": 4,
+    "change": 3,
+    "ret": 30,
+    "imm": 14,
+    "gen": 10,
+    "full": 0
+   },
+   "v": {
+    "cap": 8.8,
+    "plain": 7.6
+   }
+  },
+  {
+   "in": {
+    "full0": 10,
+    "change": 5,
+    "ret": 14
+   },
+   "err": "imm"
+  }
+ ]
+}

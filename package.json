@@ -1,0 +1,15 @@
+{
+  "name": "immutable-backup-capacity",
+  "version": "1.1.3",
+  "private": true,
+  "description": "Calculate the effect of immutability period and block generation headroom on repository capacity; extra space needed compared with normal retention.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://sistem.eretek.com/en/tools/immutable-backup-capacity",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
